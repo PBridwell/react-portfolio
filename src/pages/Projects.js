@@ -1,41 +1,29 @@
 import React, { Component } from 'react';
-
-
-
+import apps from '../projects.json';
+import ProjectCard from '../components/ProjectCard';
 
 class Projects extends Component {
-    state = {
-        projects: [
-            {
-                name: 'name',
-                repo: 'link',
-                deployed: 'link'
-            },
-            {
-                name: 'name2',
-                repo: 'link',
-                deployed: 'link'
-            },
-            {
-                name: '3',
-                repo: 'link',
-                deployed: 'link'
-            }
-        ]
-
-        
-    }
-    render() {
-        return (
-            <div>
-              <h1>My current work</h1>  
-              {this.state.projects.map((project, i) => (
-                  <div key={i}><p>{project.name}</p></div>
-              ))}
-              
-            </div>
-        );
-    }
+	state = {
+		apps,
+	};
+	render() {
+		return (
+			<div>
+				<h1>A few of my Projects</h1>
+				{this.state.apps.map((app) => (
+					<ProjectCard
+						id={app.id}
+						key={app.id}
+						name={app.name}
+						image={app.img}
+						info={app.info}
+						github={app.github}
+						deployed={app.deployed}
+					/>
+				))}
+			</div>
+		);
+	}
 }
 
 export default Projects;
