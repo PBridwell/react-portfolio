@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"name": "Life on Mars",
+		"img": "capture",
+		"info": "A web app built with Materialize to access the Mars Rover photo API.",
+		"github": "link",
+		"deployed": "link"
+	},
+	{
+		"id": 2,
+		"name": "How's it Growing?",
+		"img": "capture",
+		"info": "A full-stack web app with MySQL for creating a house plant care schedule.",
+		"github": "link",
+		"deployed": "link"
+	},
+	{
+		"id": 3,
+		"name": "Day-Planner",
+		"img": "capture",
+		"info": "A web app utilizing dynamically generated elements and Moment.js to plan your workday",
+		"github": "link",
+		"deployed": "link"
+	},
+	{
+		"id": 4,
+		"name": "README-builder",
+		"img": "capture",
+		"info": "A CLI app for generating a clean README with badges and links based on user input",
+		"github": "link",
+		"deployed": "link"
+	},
+	{
+		"id": 1,
+		"name": "My-CMS",
+		"img": "capture",
+		"info": "A CLI app powered by MySQL that allows a user to add and remove employees from a central database",
+		"github": "link",
+		"deployed": "link"
+	},
+	{
+		"id": 1,
+		"name": "Burger-App",
+		"img": "capture",
+		"info": "Full-stack application utilizing MySQL and Handlebars. Full CRUD functionality",
+		"github": "link",
+		"deployed": "link"
+	}
+]
