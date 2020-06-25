@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import apps from '../projects.json';
 import ProjectCard from '../components/ProjectCard';
+import Wrapper from '../components/Wrapper';
 
 class Projects extends Component {
 	state = {
@@ -8,7 +9,7 @@ class Projects extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<Wrapper>
 				<h1>A few of my Projects</h1>
 				{this.state.apps.map((app) => (
 					<ProjectCard
@@ -21,7 +22,7 @@ class Projects extends Component {
 						deployed={app.deployed}
 					/>
 				))}
-			</div>
+			</Wrapper>
 		);
 	}
 }
