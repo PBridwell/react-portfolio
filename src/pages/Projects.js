@@ -16,7 +16,7 @@ class Projects extends Component {
 						id={app.id}
 						key={app.id}
 						name={app.name}
-						image={app.img}
+						img={app.img}
 						info={app.info}
 						github={app.github}
 						deployed={app.deployed}

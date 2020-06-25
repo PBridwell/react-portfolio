@@ -8,7 +8,7 @@ function ProjectCard(props) {
 				<div className='col'>
 					<div className='card'>
 						<div className='img-container'>
-							<img alt={props.name} src={props.img} />
+							<img src={require(`${props.img}`)} alt={props.name} />
 						</div>
 						<div className='content'>
 							<div>
